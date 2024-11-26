@@ -41,6 +41,8 @@ This implementation focuses solely on frontend functionality as specified in Par
 A mock server is integrated using msw to simulate API responses.
 Data persistence is handled via local storage for simplicity during development.
 The "last saved" message is displayed only if there is a previous save; otherwise, it remains hidden for a cleaner UI.
+Error messages for API failure or image loading issues are intentionally avoided in favor of simplicity.
+The alt text is used as a lightweight fallback for failed images.
 
 ### Thought Process
 At the end of this project, my design and implementation decisions revolved around creating a modular, reusable, and maintainable codebase. Here's how I approached it:
