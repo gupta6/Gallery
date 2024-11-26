@@ -98,7 +98,7 @@ export const Gallery: React.FC = () => {
       {(isDataSaving || isDataLoading) && (
         <div>
           {timeElapsed && `Last saved ${timeElapsed} ago.`}
-          <Spinner></Spinner>
+          <Spinner/>
         </div>
       )}
       <Overlay isVisible={!!overlayImg} onClose={() => setOverlayImg("")}>
