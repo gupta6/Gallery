@@ -30,11 +30,11 @@ Development Server: Vite
 
 ### Folder Structure
 /src  
-&nbsp;&nbsp; /containers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stateful components managing logic and state  
-&nbsp;&nbsp; /components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stateless components focusing solely on UI rendering  
-&nbsp;&nbsp; /hooks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Custom hooks for shared logic across components  
-&nbsp;&nbsp; /utils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Helper functions and utilities  
-&nbsp;&nbsp; /mocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mock Service Worker (MSW) handlers for simulating APIs  
+&nbsp;&nbsp; /containers &nbsp; - &nbsp; Stateful components managing logic and state  
+&nbsp;&nbsp; /components &nbsp; - &nbsp; Stateless components focusing solely on UI rendering  
+&nbsp;&nbsp; /hooks &nbsp; - &nbsp; Custom hooks for shared logic across components  
+&nbsp;&nbsp; /utils &nbsp; - &nbsp; Helper functions and utilities  
+&nbsp;&nbsp; /mocks &nbsp; - &nbsp; Mock Service Worker (MSW) handlers for simulating APIs  
 
 ### Additional Notes
 This implementation focuses solely on frontend functionality as specified in Part 2 of the assignment.  
