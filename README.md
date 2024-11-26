@@ -30,19 +30,18 @@ Development Server: Vite
 
 ### Folder Structure
 /src  
-  /containers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Stateful components managing logic and state  
-  /components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Stateless components focusing solely on UI rendering  
-  /hooks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Custom hooks for shared logic across components  
-  /utils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Helper functions and utilities  
-  /mocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Mock Service Worker (MSW) handlers for simulating APIs  
+&nbsp;&nbsp; /containers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stateful components managing logic and state  
+&nbsp;&nbsp; /components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stateless components focusing solely on UI rendering  
+&nbsp;&nbsp; /hooks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Custom hooks for shared logic across components  
+&nbsp;&nbsp; /utils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Helper functions and utilities  
+&nbsp;&nbsp; /mocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mock Service Worker (MSW) handlers for simulating APIs  
 
 ### Additional Notes
 This implementation focuses solely on frontend functionality as specified in Part 2 of the assignment.  
 A mock server is integrated using msw to simulate API responses.  
 Data persistence is handled via local storage for simplicity during development.  
 The "last saved" message is displayed only if there is a previous save; otherwise, it remains hidden for a cleaner UI.  
-Error messages for API failure or image loading issues are intentionally avoided in favor of simplicity.  
-The alt text is used as a lightweight fallback for failed images.
+Error messages for API failure or image loading issues are intentionally avoided in favor of simplicity. The alt text is used as a lightweight fallback for failed images.
 
 ### Thought Process
 At the end of this project, my design and implementation decisions revolved around creating a modular, reusable, and maintainable codebase. Here's how I approached it:  
