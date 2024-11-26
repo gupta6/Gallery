@@ -29,8 +29,8 @@ Development Server: Vite
    http://localhost:5173
 
 ### Folder Structure
-/src
-  /containers     # Stateful components managing logic and state  
+/src  
+  /containers      # Stateful components managing logic and state  
   /components     # Stateless components focusing solely on UI rendering  
   /hooks          # Custom hooks for shared logic across components  
   /utils          # Helper functions and utilities  
