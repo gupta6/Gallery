@@ -5,16 +5,16 @@ This project is a simple React-based frontend application that displays a JSON d
 
 ### Features
 Dynamic Card Display: Displays 5 document cards, arranged dynamically (3 in the first row and 2 in the second).  
-Thumbnails: Each card has a unique thumbnail based on its document type.
-Loading Spinner: Shows a spinner placeholder while thumbnails are loading.
-Drag-and-Drop: Allows users to reorder cards via drag-and-drop.
-Image Overlay: Clicking on a card displays the image in an overlay.
-Keyboard Accessibility: Pressing ESC closes the image overlay.
+Thumbnails: Each card has a unique thumbnail based on its document type.  
+Loading Spinner: Shows a spinner placeholder while thumbnails are loading.  
+Drag-and-Drop: Allows users to reorder cards via drag-and-drop.  
+Image Overlay: Clicking on a card displays the image in an overlay.  
+Keyboard Accessibility: Pressing ESC closes the image overlay.  
 
 ### Tech Stack
-Frontend: React (with Hooks for state and lifecycle management), React DnD (for drag n drop)
-Styling: CSS 
-Development Server: Vite
+Frontend: React (with Hooks for state and lifecycle management), React DnD (for drag n drop)  
+Styling: CSS  
+Development Server: Vite  
 
 ### Prerequisites
 - **Node.js** (v14 or later)
@@ -30,11 +30,11 @@ Development Server: Vite
 
 ### Folder Structure
 /src  
-  /containers &nbsp;&nbsp;&nbsp;&nbsp; # Stateful components managing logic and state  
-  /components &nbsp;&nbsp;&nbsp;&nbsp; # Stateless components focusing solely on UI rendering  
-  /hooks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Custom hooks for shared logic across components  
-  /utils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Helper functions and utilities  
-  /mocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Mock Service Worker (MSW) handlers for simulating APIs  
+  /containers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Stateful components managing logic and state  
+  /components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Stateless components focusing solely on UI rendering  
+  /hooks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Custom hooks for shared logic across components  
+  /utils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Helper functions and utilities  
+  /mocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Mock Service Worker (MSW) handlers for simulating APIs  
 
 ### Additional Notes
 This implementation focuses solely on frontend functionality as specified in Part 2 of the assignment.  
